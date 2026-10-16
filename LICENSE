@@ -1,0 +1,5 @@
+cat << 'EOF' > LICENSE
+FirmaEC es una aplicación desarrollada y distribuida por el Gobierno de la República del Ecuador (Ministerio de Telecomunicaciones y de la Sociedad de la Información - MINTEL).
+
+Este repositorio únicamente contiene las instrucciones de empaquetado (PKGBUILD) y scripts de integración comunitaria bajo licencia MIT para permitir su ejecución en distribuciones basadas en Arch Linux.
+EOF

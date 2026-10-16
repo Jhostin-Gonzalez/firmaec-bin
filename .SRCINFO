@@ -1,0 +1,19 @@
+pkgbase = firmaec-bin
+	pkgdesc = Aplicación oficial del Gobierno de Ecuador para firma y validación electrónica de documentos
+	pkgver = 5.3.0
+	pkgrel = 1
+	url = https://www.firmadigital.gob.ec
+	arch = x86_64
+	license = custom
+	depends = jre17-openjdk
+	depends = gtk3
+	depends = shared-mime-info
+	optdepends = ccid: Soporte para lectores de tarjetas inteligentes y tokens USB
+	optdepends = pcsc-tools: Herramientas de diagnóstico de tarjetas y tokens
+	provides = firmaec
+	provides = firmador
+	conflicts = firmaec
+	source = https://mirror.cedia.org.ec/firmaec/firmaec_amd64.deb
+	sha256sums = SKIP
+
+pkgname = firmaec-bin

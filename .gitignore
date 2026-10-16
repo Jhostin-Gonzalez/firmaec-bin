@@ -1,0 +1,10 @@
+cat << 'EOF' > .gitignore
+# Binarios y descargas temporales
+*.deb
+*.tar.*
+*.pkg.tar.zst
+
+# Carpetas generadas por makepkg
+src/
+pkg/
+EOF
